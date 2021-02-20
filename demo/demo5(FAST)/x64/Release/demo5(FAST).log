@@ -1,0 +1,16 @@
+﻿生成启动时间为 2021/2/2 20:51:28。
+     1>项目“C:\Users\Administrator\Desktop\vs3013\demo\demo\demo5(FAST)\demo5(FAST).vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\VS2013\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /GL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Release\\" /Fd"x64\Release\vc120.pdb" /Gd /TP /errorReport:prompt fast.cpp
+         fast.cpp
+       Link:
+         D:\VS2013\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\vs3013\demo\demo\x64\Release\demo5(FAST).exe" /NOLOGO /LIBPATH:..\x64\Release opencv_core2413.lib opencv_highgui2413.lib opencv_imgproc2413.lib opencv_legacy2413.lib opencv_ml2413.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Desktop\vs3013\demo\demo\x64\Release\demo5(FAST).pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\vs3013\demo\demo\x64\Release\demo5(FAST).lib" /MACHINE:X64 x64\Release\fast.obj
+     1>fast.obj : error LNK2001: 无法解析的外部符号 "public: void __cdecl cv::StarDetector::operator()(class cv::Mat const &,class std::vector<class cv::KeyPoint,class std::allocator<class cv::KeyPoint> > &)const " (??RStarDetector@cv@@QEBAXAEBVMat@1@AEAV?$vector@VKeyPoint@cv@@V?$allocator@VKeyPoint@cv@@@std@@@std@@@Z)
+     1>fast.obj : error LNK2001: 无法解析的外部符号 "public: __cdecl cv::StarDetector::StarDetector(int,int,int,int,int)" (??0StarDetector@cv@@QEAA@HHHHH@Z)
+     1>fast.obj : error LNK2001: 无法解析的外部符号 "public: virtual __cdecl cv::FeatureDetector::~FeatureDetector(void)" (??1FeatureDetector@cv@@UEAA@XZ)
+     1>C:\Users\Administrator\Desktop\vs3013\demo\demo\x64\Release\demo5(FAST).exe : fatal error LNK1120: 3 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\Administrator\Desktop\vs3013\demo\demo\demo5(FAST)\demo5(FAST).vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.57
